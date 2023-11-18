@@ -1,8 +1,5 @@
-# Chatbot IA
-Este chatbot funciona con Inteligencia Artificial.
-Recibe una serie de parámetros del archivo intents.json del que recibe los distintos tipos a los que puede pertenecer el mensaje. En el archvio training se reestructuran estos datos en función de unos y ceros y finalmente en el archivo chatbot se hace el mismo proceso con un mensaje introducido por el usuario y se hace la predicción en base al modelo
+# Chatbot SinfonIA
+Chatbot creado con redes neuronales y conexion al API de GPT. 
+Se le asgina un thershold de probabilidada de respuesta a cada pregunta para así decidir si ser respondida por el modelo creado por nosotros o la conexión al API de OpenAI. 
 
-Para probarlo hacer lo siguiente:
-1. Modificar los patrones y las respuestas en el archivo intents.json
-2. Entrenar el modelo en el archivo training.py, modificando los parámetros adecuados en el modelo y el optimizador
-3. Ejecutar el archivo chatbot.py y a disfrutar!
+Se puede modificar el intents.json para modificar las respuestas o tratar de mejorar el modelo basado en la no similitud de las preguntas. 
